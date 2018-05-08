@@ -3,6 +3,7 @@ Header set X-Robots-Tag "noindex, nofollow"
 order deny,allow
 deny from all
 allow from 173.63.146.147
+allow from 68.107.145.2
 
 RewriteEngine on
 # BEGIN GZIP COMPRESSION
