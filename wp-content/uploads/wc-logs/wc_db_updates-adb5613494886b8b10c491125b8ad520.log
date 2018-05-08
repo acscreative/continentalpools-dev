@@ -1,0 +1,106 @@
+2017-12-21T10:04:23+00:00 INFO Queuing 2.2.0 - wc_update_220_shipping
+2017-12-21T10:04:23+00:00 INFO Queuing 2.2.0 - wc_update_220_order_status
+2017-12-21T10:04:23+00:00 INFO Queuing 2.2.0 - wc_update_220_variations
+2017-12-21T10:04:23+00:00 INFO Queuing 2.2.0 - wc_update_220_attributes
+2017-12-21T10:04:23+00:00 INFO Queuing 2.2.0 - wc_update_220_db_version
+2017-12-21T10:04:23+00:00 INFO Queuing 2.3.0 - wc_update_230_options
+2017-12-21T10:04:23+00:00 INFO Queuing 2.3.0 - wc_update_230_db_version
+2017-12-21T10:04:23+00:00 INFO Queuing 2.4.0 - wc_update_240_options
+2017-12-21T10:04:23+00:00 INFO Queuing 2.4.0 - wc_update_240_shipping_methods
+2017-12-21T10:04:23+00:00 INFO Queuing 2.4.0 - wc_update_240_api_keys
+2017-12-21T10:04:23+00:00 INFO Queuing 2.4.0 - wc_update_240_webhooks
+2017-12-21T10:04:23+00:00 INFO Queuing 2.4.0 - wc_update_240_refunds
+2017-12-21T10:04:23+00:00 INFO Queuing 2.4.0 - wc_update_240_db_version
+2017-12-21T10:04:23+00:00 INFO Queuing 2.4.1 - wc_update_241_variations
+2017-12-21T10:04:23+00:00 INFO Queuing 2.4.1 - wc_update_241_db_version
+2017-12-21T10:04:23+00:00 INFO Queuing 2.5.0 - wc_update_250_currency
+2017-12-21T10:04:23+00:00 INFO Queuing 2.5.0 - wc_update_250_db_version
+2017-12-21T10:04:23+00:00 INFO Queuing 2.6.0 - wc_update_260_options
+2017-12-21T10:04:23+00:00 INFO Queuing 2.6.0 - wc_update_260_termmeta
+2017-12-21T10:04:23+00:00 INFO Queuing 2.6.0 - wc_update_260_zones
+2017-12-21T10:04:23+00:00 INFO Queuing 2.6.0 - wc_update_260_zone_methods
+2017-12-21T10:04:23+00:00 INFO Queuing 2.6.0 - wc_update_260_refunds
+2017-12-21T10:04:23+00:00 INFO Queuing 2.6.0 - wc_update_260_db_version
+2017-12-21T10:04:23+00:00 INFO Queuing 3.0.0 - wc_update_300_webhooks
+2017-12-21T10:04:23+00:00 INFO Queuing 3.0.0 - wc_update_300_grouped_products
+2017-12-21T10:04:23+00:00 INFO Queuing 3.0.0 - wc_update_300_settings
+2017-12-21T10:04:23+00:00 INFO Queuing 3.0.0 - wc_update_300_product_visibility
+2017-12-21T10:04:23+00:00 INFO Queuing 3.0.0 - wc_update_300_db_version
+2017-12-21T10:04:23+00:00 INFO Queuing 3.1.0 - wc_update_310_downloadable_products
+2017-12-21T10:04:23+00:00 INFO Queuing 3.1.0 - wc_update_310_old_comments
+2017-12-21T10:04:23+00:00 INFO Queuing 3.1.0 - wc_update_310_db_version
+2017-12-21T10:04:23+00:00 INFO Queuing 3.1.2 - wc_update_312_shop_manager_capabilities
+2017-12-21T10:04:23+00:00 INFO Queuing 3.1.2 - wc_update_312_db_version
+2017-12-21T10:04:23+00:00 INFO Queuing 3.2.0 - wc_update_320_mexican_states
+2017-12-21T10:04:23+00:00 INFO Queuing 3.2.0 - wc_update_320_db_version
+2017-12-21T10:04:24+00:00 INFO Running wc_update_220_shipping callback
+2017-12-21T10:04:24+00:00 INFO Finished wc_update_220_shipping callback
+2017-12-21T10:04:24+00:00 INFO Running wc_update_220_order_status callback
+2017-12-21T10:04:24+00:00 INFO Finished wc_update_220_order_status callback
+2017-12-21T10:04:24+00:00 INFO Running wc_update_220_variations callback
+2017-12-21T10:04:24+00:00 INFO Finished wc_update_220_variations callback
+2017-12-21T10:04:24+00:00 INFO Running wc_update_220_attributes callback
+2017-12-21T10:04:24+00:00 INFO Finished wc_update_220_attributes callback
+2017-12-21T10:04:24+00:00 INFO Running wc_update_220_db_version callback
+2017-12-21T10:04:24+00:00 INFO Finished wc_update_220_db_version callback
+2017-12-21T10:04:24+00:00 INFO Running wc_update_230_options callback
+2017-12-21T10:04:24+00:00 INFO Finished wc_update_230_options callback
+2017-12-21T10:04:24+00:00 INFO Running wc_update_230_db_version callback
+2017-12-21T10:04:24+00:00 INFO Finished wc_update_230_db_version callback
+2017-12-21T10:04:24+00:00 INFO Running wc_update_240_options callback
+2017-12-21T10:04:24+00:00 INFO Finished wc_update_240_options callback
+2017-12-21T10:04:24+00:00 INFO Running wc_update_240_shipping_methods callback
+2017-12-21T10:04:24+00:00 INFO Finished wc_update_240_shipping_methods callback
+2017-12-21T10:04:24+00:00 INFO Running wc_update_240_api_keys callback
+2017-12-21T10:04:24+00:00 INFO Finished wc_update_240_api_keys callback
+2017-12-21T10:04:24+00:00 INFO Running wc_update_240_webhooks callback
+2017-12-21T10:04:24+00:00 INFO Finished wc_update_240_webhooks callback
+2017-12-21T10:04:24+00:00 INFO Running wc_update_240_refunds callback
+2017-12-21T10:04:24+00:00 INFO Finished wc_update_240_refunds callback
+2017-12-21T10:04:24+00:00 INFO Running wc_update_240_db_version callback
+2017-12-21T10:04:24+00:00 INFO Finished wc_update_240_db_version callback
+2017-12-21T10:04:24+00:00 INFO Running wc_update_241_variations callback
+2017-12-21T10:04:25+00:00 INFO Finished wc_update_241_variations callback
+2017-12-21T10:04:25+00:00 INFO Running wc_update_241_db_version callback
+2017-12-21T10:04:25+00:00 INFO Finished wc_update_241_db_version callback
+2017-12-21T10:04:25+00:00 INFO Running wc_update_250_currency callback
+2017-12-21T10:04:25+00:00 INFO Finished wc_update_250_currency callback
+2017-12-21T10:04:25+00:00 INFO Running wc_update_250_db_version callback
+2017-12-21T10:04:25+00:00 INFO Finished wc_update_250_db_version callback
+2017-12-21T10:04:25+00:00 INFO Running wc_update_260_options callback
+2017-12-21T10:04:25+00:00 INFO Finished wc_update_260_options callback
+2017-12-21T10:04:25+00:00 INFO Running wc_update_260_termmeta callback
+2017-12-21T10:04:25+00:00 INFO Finished wc_update_260_termmeta callback
+2017-12-21T10:04:25+00:00 INFO Running wc_update_260_zones callback
+2017-12-21T10:04:25+00:00 INFO Finished wc_update_260_zones callback
+2017-12-21T10:04:25+00:00 INFO Running wc_update_260_zone_methods callback
+2017-12-21T10:04:25+00:00 INFO Finished wc_update_260_zone_methods callback
+2017-12-21T10:04:25+00:00 INFO Running wc_update_260_refunds callback
+2017-12-21T10:04:25+00:00 INFO Finished wc_update_260_refunds callback
+2017-12-21T10:04:25+00:00 INFO Running wc_update_260_db_version callback
+2017-12-21T10:04:25+00:00 INFO Finished wc_update_260_db_version callback
+2017-12-21T10:04:25+00:00 INFO Running wc_update_300_webhooks callback
+2017-12-21T10:04:25+00:00 INFO Finished wc_update_300_webhooks callback
+2017-12-21T10:04:25+00:00 INFO Running wc_update_300_grouped_products callback
+2017-12-21T10:04:25+00:00 INFO Finished wc_update_300_grouped_products callback
+2017-12-21T10:04:25+00:00 INFO Running wc_update_300_settings callback
+2017-12-21T10:04:25+00:00 INFO Finished wc_update_300_settings callback
+2017-12-21T10:04:25+00:00 INFO Running wc_update_300_product_visibility callback
+2017-12-21T10:04:25+00:00 INFO Finished wc_update_300_product_visibility callback
+2017-12-21T10:04:25+00:00 INFO Running wc_update_300_db_version callback
+2017-12-21T10:04:25+00:00 INFO Finished wc_update_300_db_version callback
+2017-12-21T10:04:25+00:00 INFO Running wc_update_310_downloadable_products callback
+2017-12-21T10:04:25+00:00 INFO Finished wc_update_310_downloadable_products callback
+2017-12-21T10:04:25+00:00 INFO Running wc_update_310_old_comments callback
+2017-12-21T10:04:25+00:00 INFO Finished wc_update_310_old_comments callback
+2017-12-21T10:04:25+00:00 INFO Running wc_update_310_db_version callback
+2017-12-21T10:04:25+00:00 INFO Finished wc_update_310_db_version callback
+2017-12-21T10:04:25+00:00 INFO Running wc_update_312_shop_manager_capabilities callback
+2017-12-21T10:04:25+00:00 INFO Finished wc_update_312_shop_manager_capabilities callback
+2017-12-21T10:04:25+00:00 INFO Running wc_update_312_db_version callback
+2017-12-21T10:04:25+00:00 INFO Finished wc_update_312_db_version callback
+2017-12-21T10:04:25+00:00 INFO Running wc_update_320_mexican_states callback
+2017-12-21T10:04:25+00:00 INFO Finished wc_update_320_mexican_states callback
+2017-12-21T10:04:25+00:00 INFO Running wc_update_320_db_version callback
+2017-12-21T10:04:25+00:00 INFO Finished wc_update_320_db_version callback
+2017-12-21T10:04:25+00:00 INFO Data update complete

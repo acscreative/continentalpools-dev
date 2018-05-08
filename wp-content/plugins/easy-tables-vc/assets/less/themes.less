@@ -1,0 +1,304 @@
+@import (reference) "../../../js_composer/assets/lib/bower/bootstrap3/less/mixins.less"; // path to the Visual Composer assets folder
+@orange: #FFAC14; //Orange
+@pink: #F64747; //Pink
+@purple: #4A4683; //Purple
+@blue: #0C9DF7; //Blue
+@green: #98C407; //Green
+
+.wpb_vc_table {
+	width: 100%;
+	line-height: 1;
+	.box-sizing(padding-box);
+}
+/** Admin only "default" theme **/
+#visual_composer_content {
+	table.vc-table-plugin-theme-default {
+		border-collapse: separate;
+		border-spacing: 0;
+		// Header thead
+		border: 1px solid #EBEBEB;
+		tr.vc-th {
+			td {
+				border: 1px solid #EBEBEB;
+				text-align: left;
+			}
+		}
+		// Body tbody
+		td {
+			padding: 8px 15px;
+			border: 1px solid #EBEBEB;
+		}
+	}
+}
+
+/** Classic **/
+table.vc-table-plugin-theme-classic {
+	// Header thead
+	border: 1px solid #DCDCDC;
+	tr.vc-th {
+		td {
+			font-weight: bold;
+			background-color: #F9F9F9;
+			padding: 10px 15px;
+			border: 1px solid #DCDCDC;
+			text-align: left;
+		}
+	}
+	// Body tbody
+	td {
+		padding: 8px 15px;
+		border: 1px solid #DCDCDC;
+	}
+	tr:nth-child(2n+1),
+	tr:hover {
+		background-color: #F9F9F9;
+	}
+}
+
+/*** Color Variations for Classic theme ***/
+/** Classic Orange **/
+table.vc-table-plugin-theme-classic_orange {
+	// Header thead
+	border: 1px solid @orange;
+	tr.vc-th {
+		td {
+			font-weight: bold;
+			color: #ffffff;
+			background: @orange;
+			padding: 10px 15px;
+			border-bottom: none;
+			text-align: left;
+		}
+	}
+	// Body tbody
+	td {
+		padding: 8px 15px;
+		border: 1px solid @orange;
+	}
+	tr:nth-child(2n+1),
+	tr:hover {
+		background-color: lighten(@orange, 40);
+	}
+}
+/** Classic Pink **/
+table.vc-table-plugin-theme-classic_pink {
+	// Header thead
+	border: 1px solid @pink;
+	tr.vc-th {
+		td {
+			font-weight: bold;
+			color: #ffffff;
+			background: @pink;
+			padding: 10px 15px;
+			border-bottom: none;
+			text-align: left;
+		}
+	}
+	// Body tbody
+	td {
+		padding: 8px 15px;
+		border: 1px solid @pink;
+	}
+	tr:nth-child(2n+1),
+	tr:hover {
+		background-color: lighten(@pink, 35);
+	}
+}
+/** Classic Purple **/
+table.vc-table-plugin-theme-classic_purple {
+	// Header thead
+	border: 1px solid @purple;
+	tr.vc-th {
+		td {
+			font-weight: bold;
+			color: #ffffff;
+			background: @purple;
+			padding: 10px 15px;
+			border-bottom: none;
+			text-align: left;
+		}
+	}
+	// Body tbody
+	td {
+		padding: 8px 15px;
+		border: 1px solid @purple;
+	}
+	tr:nth-child(2n+1),
+	tr:hover {
+		background-color: lighten(@purple, 50);
+	}
+}
+/** Classic Blue **/
+table.vc-table-plugin-theme-classic_blue {
+	// Header thead
+	border: 1px solid @blue;
+	tr.vc-th {
+		td {
+			font-weight: bold;
+			color: #ffffff;
+			background: @blue;
+			padding: 10px 15px;
+			border-bottom: none;
+			text-align: left;
+		}
+	}
+	// Body tbody
+	td {
+		padding: 8px 15px;
+		border: 1px solid @blue;
+	}
+	tr:nth-child(2n+1),
+	tr:hover {
+		background-color: lighten(@blue, 45);
+	}
+}
+/** Classic Green **/
+table.vc-table-plugin-theme-classic_green {
+	// Header thead
+	border: 1px solid @green;
+	tr.vc-th {
+		td {
+			font-weight: bold;
+			color: #ffffff;
+			background: @green;
+			padding: 10px 15px;
+			border-bottom: none;
+			text-align: left;
+		}
+	}
+	// Body tbody
+	td {
+		padding: 8px 15px;
+		border: 1px solid @green;
+	}
+	tr:nth-child(2n+1),
+	tr:hover {
+		background-color: lighten(@green, 50);
+	}
+}
+
+
+
+
+/** Simple **/
+table.vc-table-plugin-theme-simple {
+	// Header thead
+	tr.vc-th {
+		td {
+			font-weight: bold;
+			//padding: 8px;
+			border-bottom: 2px solid #DCDCDC;
+			text-align: left;
+		}
+	}
+	// Body tbody
+	td {
+		padding: 8px;
+		border-bottom: 1px solid #DCDCDC;
+	}
+	tr:hover { //nth-child(2n) {
+		background-color: #F9F9F9;
+	}
+}
+
+/*** Color Variations for Simple theme ***/
+/** Simple Orange **/
+table.vc-table-plugin-theme-simple_orange {
+	// Header thead
+	tr.vc-th {
+		td {
+			font-weight: bold;
+			//padding: 8px;
+			border-bottom: 2px solid @orange;
+			text-align: left;
+		}
+	}
+	// Body tbody
+	td {
+		padding: 8px;
+		border-bottom: 1px solid @orange;
+	}
+	tr:hover { //nth-child(2n) {
+		background-color: lighten(@orange, 40);
+	}
+}
+/** Simple Pink **/
+table.vc-table-plugin-theme-simple_pink {
+	// Header thead
+	tr.vc-th {
+		td {
+			font-weight: bold;
+			//padding: 8px;
+			border-bottom: 2px solid @pink;
+			text-align: left;
+		}
+	}
+	// Body tbody
+	td {
+		padding: 8px;
+		border-bottom: 1px solid @pink;
+	}
+	tr:hover { //nth-child(2n) {
+		background-color: lighten(@pink, 35);
+	}
+}
+/** Simple Purple **/
+table.vc-table-plugin-theme-simple_purple {
+	// Header thead
+	tr.vc-th {
+		td {
+			font-weight: bold;
+			//padding: 8px;
+			border-bottom: 2px solid @purple;
+			text-align: left;
+		}
+	}
+	// Body tbody
+	td {
+		padding: 8px;
+		border-bottom: 1px solid @purple;
+	}
+	tr:hover { //nth-child(2n) {
+		background-color: lighten(@purple, 50);
+	}
+}
+/** Simple Blue **/
+table.vc-table-plugin-theme-simple_blue {
+	// Header thead
+	tr.vc-th {
+		td {
+			font-weight: bold;
+			//padding: 8px;
+			border-bottom: 2px solid @blue;
+			text-align: left;
+		}
+	}
+	// Body tbody
+	td {
+		padding: 8px;
+		border-bottom: 1px solid @blue;
+	}
+	tr:hover { //nth-child(2n) {
+		background-color: lighten(@blue, 45);
+	}
+}
+/** Simple Green **/
+table.vc-table-plugin-theme-simple_green {
+	// Header thead
+	tr.vc-th {
+		td {
+			font-weight: bold;
+			//padding: 8px;
+			border-bottom: 2px solid @green;
+			text-align: left;
+		}
+	}
+	// Body tbody
+	td {
+		padding: 8px;
+		border-bottom: 1px solid @green;
+	}
+	tr:hover { //nth-child(2n) {
+		background-color: lighten(@green, 50);
+	}
+}

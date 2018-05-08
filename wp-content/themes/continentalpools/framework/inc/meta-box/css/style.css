@@ -1,0 +1,148 @@
+/* =Styles for 'normal' meta boxes
+-------------------------------------------------------------- */
+
+.rwmb-meta-box{
+	margin: 0 -12px -20px -12px;
+}
+
+.rwmb-field {
+	margin: 15px 0 15px 0;
+	padding: 0px 15px 15px 15px;
+	border-bottom:1px dashed #eeeeee;
+}
+
+.rwmb-meta-box  > .rwmb-field:last-child{
+	border-bottom: none;
+	margin-bottom: 7px;
+}
+
+.rwmb-field .description{
+	font-style: normal;
+	margin: 6px 0 0 2px;
+	color: #999999;
+}
+
+.rwmb-label,
+.rwmb-input {
+	display: inline-block;
+	vertical-align: top;
+}
+.rwmb-label {
+	width: 25%;
+	font-weight: bold;
+	padding-top: 3px;
+}
+.rwmb-label.required > span {
+	color: #c00;
+	font-weight: bold;
+}
+
+/* 75% if field has label, 100% if no label */
+.rwmb-input {
+	width: 100%;
+}
+
+.rwmb-input input{
+	padding: 6px;
+	width: 100%;
+}
+
+.rwmb-input input[type="radio"],
+.rwmb-input input[type="checkbox"] {
+	width: auto;
+}
+
+.rwmb-input textarea{
+	padding: 6px;
+	width: 100%;
+}
+
+.rwmb-label ~ .rwmb-input {
+	width: 74%;
+}
+.rwmb-input h4 {
+	margin: 0;
+}
+.rwmb-textarea {
+	resize: vertical;
+}
+
+/* Clone */
+.rwmb-clone {
+	min-height: 24px;
+}
+.rwmb-clone > input[type="radio"],
+.rwmb-clone > input[type="checkbox"] {
+	margin: 6px 0 0 4px;
+}
+.rwmb-button {
+	display: inline;
+	float: right;
+}
+
+/* Fix width to not overlap button for cloned sliders */
+.rwmb-clone .rwmb-slider {
+	width: 80%;
+	margin: 6px 0 0;
+}
+
+/* Fix buttons after sliders */
+.clearfix + .rwmb-button {
+	margin-top: -16px;
+}
+
+/* Fix empty block below admin footer (issue #24) */
+#ui-datepicker-div {
+	display: none;
+}
+
+/* jQuery validation */
+label.error {
+	padding-left: 3px;
+	color: red;
+}
+input.error,
+textarea.error,
+select.error {
+	border: #c00 solid 1px !important;
+	background: #ffebe8 !important;
+}
+
+/* Heading */
+
+.rwmb-field.rwmb-heading-wrapper{
+	padding: 0;
+	margin: 0;
+	border: none !important;
+}
+
+.rwmb-heading-wrapper h4{
+	border: none!important;
+	border-bottom:1px dashed #eeeeee !important;
+	text-transform: none !important;
+	font-weight: normal!important;
+	margin: 0!important;
+	padding: 15px 15px 20px 15px!important;
+	color: #999999;
+	font-size: 13px!important;
+}
+
+
+/* =Styles for 'side' meta boxes
+-------------------------------------------------------------- */
+
+#side-sortables .rwmb-label,
+#side-sortables .rwmb-input {
+	width: 100%;
+}
+
+#side-sortables .rwmb-label,
+#side-sortables .rwmb-input {
+	display: block;
+	vertical-align: middle;
+}
+#side-sortables .rwmb-label {
+	width: 100%;
+	font-weight: bold;
+	margin-bottom: 5px;
+}

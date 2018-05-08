@@ -1,0 +1,24 @@
+2018-02-26T10:55:26+00:00 CRITICAL Call to undefined function wp_dump()
+
+2018-02-28T16:24:45+00:00 CRITICAL Call to undefined method WC_Product::get_notes()
+
+2018-02-28T16:25:02+00:00 CRITICAL Call to undefined function wc_notes()
+
+2018-03-01T14:58:23+00:00 CRITICAL Call to a member function get_sku() on null
+
+2018-03-01T14:58:25+00:00 CRITICAL Call to a member function get_sku() on null
+
+2018-03-06T10:12:19+00:00 CRITICAL Call to a member function get() on null
+
+2018-03-06T10:12:41+00:00 CRITICAL Call to a member function get() on null
+
+2018-03-06T10:13:18+00:00 CRITICAL Call to a member function get() on null
+
+2018-03-06T10:14:08+00:00 CRITICAL Call to a member function get() on null
+
+2018-03-26T14:32:09+00:00 CRITICAL SOAP-ERROR: Encoding: Element 'ServiceId' has fixed value 'aval' (value 'crs' is not allowed)
+
+2018-05-04T17:30:01+00:00 CRITICAL SOAP-ERROR: Encoding: Element 'Major' has fixed value '2' (value '4' is not allowed)
+
+2018-05-04T17:33:03+00:00 CRITICAL SOAP-ERROR: Encoding: Element 'Major' has fixed value '2' (value '3' is not allowed)
+

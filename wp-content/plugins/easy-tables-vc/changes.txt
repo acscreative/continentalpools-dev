@@ -1,0 +1,31 @@
+08.06.2016 - ver. 1.0.10
+   - Update for WordPress 4.5.2
+   - Update for Visual Composer 4.12
+
+10.03.2016 - ver. 1.0.9
+   - Added text domain for "Content" category (Fix for russian language)
+
+22.12.2015 - ver. 1.0.8
+   - Rebuilded package
+
+7.12.2015 - ver. 1.0.7
+   - Removed deprecated VC function calls
+   - Files update for new minified js/css files in VC 4.9
+
+24.08.2015 - ver. 1.0.6
+   - Added support for new panels in VC 4.7
+
+28.04.2015 - ver. 1.0.5
+   - Ability to add HTML to the table cells
+
+05.03.2015 - ver. 1.0.4
+   - Fixed: json-patch-duplex.js.map 404 error
+
+29.01.2015 - ver. 1.0.3
+   - Added support for VC 4.4
+
+28.07.2014 - ver. 1.0.2
+   - Added support for VC 4.3
+
+12.09.2013 - ver. 1.0.1
+   - Apostrophe fix added

@@ -1,0 +1,72 @@
+.vc_element-icon.icon-wpb-minti-alert{background: url("images/vc_alert.png") no-repeat 0 0 !important;}
+.vc_element-icon.icon-wpb-minti-callout{background: url("images/vc_callout.png") no-repeat 0 0 !important;}
+.vc_element-icon.icon-wpb-minti-category_image{background: url("images/vc_category_image.png") no-repeat 0 0 !important;}
+.vc_element-icon.icon-wpb-minti-box{background: url("images/vc_box.png") no-repeat 0 0 !important;}
+.vc_element-icon.icon-wpb-minti-iconbox{background: url("images/vc_iconbox.png") no-repeat 0 0 !important;}
+.vc_element-icon.icon-wpb-minti-imagebox{background: url("images/vc_imagebox.png") no-repeat 0 0 !important;}
+.vc_element-icon.icon-wpb-minti-counter{background: url("images/vc_counter.png") no-repeat 0 0 !important;}
+.vc_element-icon.icon-wpb-minti-member{background: url("images/vc_member.png") no-repeat 0 0 !important;}
+.vc_element-icon.icon-wpb-minti-blog{background: url("images/vc_blog.png") no-repeat 0 0 !important;}
+.vc_element-icon.icon-wpb-minti-bloglist{background: url("images/vc_bloglist.png") no-repeat 0 0 !important;}
+.vc_element-icon.icon-wpb-minti-portfolio{background: url("images/vc_portfolio.png") no-repeat 0 0 !important;}
+.vc_element-icon.icon-wpb-minti-portfoliosection{background: url("images/vc_portfoliosection.png") no-repeat 0 0 !important;}
+.vc_element-icon.icon-wpb-minti-pricingplan{background: url("images/vc_pricingplan.png") no-repeat 0 0 !important;}
+.vc_element-icon.icon-wpb-minti-testimonial{background: url("images/vc_testimonial.png") no-repeat 0 0 !important;}
+.vc_element-icon.icon-wpb-minti-text{background: url("images/vc_text.png") no-repeat 0 0 !important;}
+.vc_element-icon.icon-wpb-minti-title{background: url("images/vc_title.png") no-repeat 0 0 !important;}
+.vc_element-icon.icon-wpb-minti-headline{background: url("images/vc_headline.png") no-repeat 0 0 !important;}
+.vc_element-icon.icon-wpb-minti-googlemaps{background: url("images/vc_googlemaps.png") no-repeat 0 0 !important;}
+.vc_element-icon.icon-wpb-minti-progressbar{background: url("images/vc_progressbar.png") no-repeat 0 0 !important;}
+.vc_element-icon.icon-wpb-minti-divider{background: url("images/vc_divider.png") no-repeat 0 0 !important;}
+.vc_element-icon.icon-wpb-minti-spacer{background: url("images/vc_spacer.png") no-repeat 0 0 !important;}
+.vc_element-icon.icon-wpb-minti-video{background: url("images/vc_video.png") no-repeat 0 0 !important;}
+.vc_element-icon.icon-wpb-minti-image{background: url("images/vc_image.png") no-repeat 0 0 !important;}
+.vc_element-icon.icon-wpb-minti-gallery{background: url("images/vc_gallery.png") no-repeat 0 0 !important;}
+.vc_element-icon.icon-wpb-minti-toggle{background: url("images/vc_toggle.png") no-repeat 0 0 !important;}
+.vc_element-icon.icon-wpb-minti-woocommerce{background: url("images/vc_woocommerce.png") no-repeat 0 0 !important;}
+.vc_element-icon.icon-wpb-minti-list{background: url("images/vc_list.png") no-repeat 0 0 !important;}
+.vc_element-icon.icon-wpb-minti-zooming_slider{background: url("images/vc_zoom_slider.png") no-repeat 0 0 !important;}
+.vc_element-icon.icon-wpb-minti-carousel{background: url("images/vc_carousel.png") no-repeat 0 0 !important;}
+.vc_element-icon.icon-wpb-minti-boxedholder{background: url("images/vc_boxedholder.png") no-repeat 0 0 !important;}
+.vc_element-icon.icon-wpb-minti-masonrygrid{background: url("images/vc_masonrygrid.png") no-repeat 0 0 !important;}
+
+.admin_label_css_animation{
+	display: none;
+}
+
+.wpb_switch-to-composer{
+	padding-left: 15px !important;
+	padding-right: 15px !important;
+	border-radius: 0 4px 4px 0;
+}
+
+.vc_panel-heading,
+.vc_modal-header{
+	background: #444444 !important;
+}
+
+.vc_btn-primary{
+	background: #0074a2 !important;
+}
+
+.vc_btn-primary.vc_btn-sm{
+	font-size: 13px;
+	padding: 6px 12px;
+}
+
+.vc_templates-editor .wpb_templates_list .wpb_template_li a{
+	color: inherit!important;
+}
+
+.vc_modal-content{
+	border: none !important;
+}
+
+.wpb_vc_param_value.wpb-textarea{
+	height: 120px;
+}
+
+/* Display Depricated Items
+.wpb-layout-element-button.vc_element-deprecated {
+    display: inherit !important;
+} */

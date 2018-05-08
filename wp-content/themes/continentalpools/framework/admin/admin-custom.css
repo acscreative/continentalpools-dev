@@ -1,0 +1,268 @@
+#info_bar {
+    background: #fcfcfc !important;
+    padding: 18px 11px !important;
+    border-bottom: 1px solid #dddddd !important;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#redux-footer{
+    padding: 18px 11px !important;
+}
+
+.expand_options{
+    display: none !important;
+}
+
+.notice-green {
+    margin: 0;
+    background-color: #f2f8ea;
+    color: #7fb634;
+    border-bottom: 1px solid #cccccc;
+}
+.notice-blue {
+    border-bottom: 1px solid #cccccc;
+}
+.notice-yellow {
+    border-bottom: 1px solid #cccccc;
+}
+
+#redux-header {
+    background: #555555 !important; /* Old browsers */
+    background: -moz-linear-gradient(top,  #555555 0%, #333333 100%) !important; /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#555555), color-stop(100%,#333333)) !important; /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #555555 0%,#333333 100%) !important; /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #555555 0%,#333333 100%) !important; /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #555555 0%,#333333 100%) !important; /* IE10+ */
+    background: linear-gradient(to bottom,  #555555 0%,#333333 100%) !important; /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#555555', endColorstr='#333333',GradientType=0 ); /* IE6-9 */
+    margin: -1px -1px 0 -1px;
+    border: 1px solid #333333 !important;
+    padding: 0;
+}
+
+#redux-header .display_header {
+    float: left;
+    margin: 10px 20px;
+    padding: 0;
+}
+#redux-header .display_header h2 {
+    text-transform: uppercase;
+    line-height: 1;
+    padding: 0;
+    margin: 0 8px 0 0;
+}
+
+.redux-image-select img{
+    margin-right: 20px;
+}
+
+
+.sticky-footer-fixed {
+    background: #fcfcfc !important;
+    padding: 20px 11px !important;
+    border-top: 1px solid #dddddd !important;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.redux-container {
+    background-color: #f3f3f3;
+    background-repeat: repeat-x;
+    background-image: 0;
+    background-image: 0;
+    background-image: 0;
+    background-image: 0;
+    background-image: 0;
+    filter: none;
+    background-image: none;
+    border: 1px solid #cccccc;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    margin-top: 10px;
+    overflow: visible;
+}
+
+#redux-header,#redux-footer {
+    text-align: right;
+    padding: 20px 10px;
+}
+
+#redux-footer {
+    border-top: 1px solid #dddddd;
+    z-index: 2;
+    background: #fcfcfc !important;
+}
+
+.redux-main {
+    background: #ffffff;
+    
+}
+
+.redux-sidebar .redux-group-menu li.divide {
+    padding: 0;
+    border-width: 0px 0;
+    border-style: solid;
+    border-bottom-color: #dddddd;
+    border-top-color: #dddddd;
+    display: none;
+}
+
+.redux-sidebar .redux-group-menu{
+    background: #f3f3f3;
+    border-right: 1px solid #cccccc;
+}
+
+.redux-sidebar .redux-group-menu li a {
+    display: block;
+    padding: 14px 4px 14px 14px;
+    background: #ffffff;
+    background: 0 0;
+    border-width: 1px 0;
+    border-style: solid;
+    border-bottom-color: #f3f3f3;
+    border-top-color: #f3f3f3;
+    opacity: 1;
+    color: #888888;
+    font-weight: normal;
+    text-decoration: none;
+    -webkit-transition: none;
+    transition: none;
+}
+
+.redux-sidebar .redux-group-menu li a:hover {
+    background: #e8e8e8;
+    color: #444444;
+    opacity: 1;
+}
+
+.redux-sidebar .redux-group-menu li.active a,.redux-sidebar .redux-group-menu li.activeChild a {
+    background: #ffffff;
+    color: #21759b !important;
+    border-color: #cccccc;
+    border-top: 1px solid #cccccc;
+    margin-top: -1px;
+    birder-right:1px solid #cccccc !important;
+    opacity: 1;
+
+    -webkit-box-shadow: 0 2px 0 0 rgba(0,0,0,0.03);
+            box-shadow: 0 2px 0 0 rgba(0,0,0,0.03);
+}
+
+.redux-sidebar .redux-group-menu li.active a:hover,
+.redux-sidebar .redux-group-menu li.activeChild a:hover{
+    border-right: none;
+}
+
+.redux-sidebar .redux-group-menu li.active:first-child a,
+.redux-sidebar .redux-group-menu li.activeChild:first-child a{
+    border-top: none !important;
+    margin-top: 0 !important;
+}
+
+.redux-group-tab{
+    padding: 30px 0;
+}
+
+.redux-group-tab h3 {
+    line-height: 1;
+    border-bottom: none;
+    color: #222222;
+    font-weight: 400;
+    margin: 0 0 0px 0;
+    padding: 0px 0 20px 0;
+    font-size: 26px;
+    border-bottom: 1px solid #efefef;
+}
+
+.redux-main .form-table {
+    margin-bottom: 0px;
+}
+
+.redux-main .form-table tr {
+    border-bottom: 10px solid #ffffff;
+    background: #fafafa;
+}
+
+.redux-main .form-table tr:last-child {
+    border-bottom: 0 !important;
+}
+
+.redux-main .form-table tr th, .redux-main .form-table tr td {
+    padding: 5px 20px 0 20px;
+
+}
+
+.redux-main span.description, .field-desc {
+    display: block;
+    font-style: normal;
+    line-height: 1.4;
+    color: #999999;
+}
+
+.redux-notice-field.redux-normal{
+    margin: 0 !important;
+    background-color: #fff;
+    border: 0 !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    padding: 10px 20px !important;
+    background: #888888 !important;
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    margin: 34px 0 10px 0 !important;
+    font-size: 14px !important;
+}
+
+.redux-notice-field.redux-normal p{
+    font-size: 14px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.redux-notice-field.redux-normal{
+    margin: 34px 0 10px 0 !important;
+    padding: 10px 20px !important;
+    background: #888888 !important;
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    border:none;
+    border-radius: 0 !important;
+}
+
+.redux-info-field.redux-normal{
+    border:none;
+    border-radius: 0 !important;
+    background: #fffae7 !important;
+    color: #9F6000 !important;
+    margin: 0px 0 10px 0 !important;
+    padding: 10px 20px !important;
+}
+
+.redux-info-field .redux-info-desc{
+    font-size: 14px !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+}
+
+.redux-container-ace_editor .ace_editor {
+    height: 600px;
+    border:1px solid #cccccc;
+}
+
+.redux-dev-mode-notice{
+    position: relative;
+    z-index: 4;
+}
+
+.rAds{
+    display: hidden !important;
+}
+
+.redux-action_bar input{
+    margin-left: 5px !important;
+}

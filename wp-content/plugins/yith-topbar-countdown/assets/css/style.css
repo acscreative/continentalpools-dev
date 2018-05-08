@@ -1,0 +1,110 @@
+/**
+ * Topbar Countdown Style
+ *
+ * @author Your Inspiration Themes
+ * @package YITH Topbar Countdown
+ * @version 1.0.0
+ */
+
+body{padding-top: 35px;}
+
+#yith-topbar-countdown {
+    position: absolute;
+    height: 40px;
+    top: 0;
+    width: 100%;
+    z-index: 99999;
+}
+
+#yith-topbar-countdown .countdown_information {
+    /*float: left;
+	padding-left: 29px;*/
+    padding-top:8px;
+    text-align: center;
+}
+
+#yith-topbar-countdown, #yith-topbar-countdown .countdown_information, #yith-topbar-countdown .wrapper_inner .countdown_button {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    line-height: normal;
+}
+
+.ie8 #yith-topbar-countdown .countdown_information{padding-left: 10px;}
+
+#yith-topbar-countdown .countdown_slogan {padding-right: 35px;}
+
+.ie8 #yith-topbar-countdown .countdown_slogan {padding-right: 0;}
+
+#yith-topbar-countdown .wrapper_inner{width: 1024px; margin: 0 auto;}
+
+#yith-topbar-countdown .wrapper_inner img{float: left;}
+
+#yith-topbar-countdown .wrapper_inner .countdown_button {
+    display: none;
+    margin-left: 40px;
+    margin-top: 16px;
+    padding: 9px 25px 9px 25px;
+    border-radius: 6px;
+}
+
+.ie8 #yith-topbar-countdown .wrapper_inner .countdown_button {
+    margin-left: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#yith-topbar-countdown .countdown_button a{text-decoration: none;}
+
+#yith-topbar-countdown .countdown_information .countdown .num,
+#yith-topbar-countdown .countdown_information .countdown-label{
+    padding-right: 12px;
+}
+
+.ie8 #yith-topbar-countdown .countdown_information .countdown .num,
+.ie8 #yith-topbar-countdown .countdown_information .countdown-label{
+    padding-right: 2px;
+}
+
+#yith-topbar-countdown .countdown_information .countdown-label.no-margin{
+    padding-right: 0;
+}
+
+@media(min-width:1200px){
+    #yith-topbar-countdown .wrapper_inner{width: 1170px;}
+}
+
+@media (max-width: 1200px) {
+    #yith-topbar-countdown .wrapper_inner{width: auto; text-align: center; padding-top: 8px;}
+    #yith-topbar-countdown .countdown_information .countdown .num{padding-right: 5px;}
+    #yith-topbar-countdown .countdown_slogan {padding-right: 5px;}
+    #yith-topbar-countdown .wrapper_inner img{display: none;}
+    #yith-topbar-countdown .countdown_information{display: inline; float: none; padding-left: 0;}
+    #yith-topbar-countdown .wrapper_inner .countdown_button{margin-left: 10px;}
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+    body{padding-top: 35px;}
+
+    #yith-topbar-countdown{height: 40px; width: 100%;}
+    #yith-topbar-countdown .wrapper_inner .countdown_button{margin-left: 10px;}
+    #yith-topbar-countdown .countdown_slogan{padding-top: 8px;}
+
+}
+
+@media (max-width: 767px) {
+    body{padding-top: 0}
+    #yith-topbar-countdown{display: none;}
+	#yith-topbar-countdown .countdown_information,
+	#yith-topbar-countdown .countdown_slogan,
+	#yith-topbar-countdown .countdown .num,
+	#yith-topbar-countdown .countdown .countdown-label {
+		font-size: 13px!important;
+	}
+}
+
+@media (max-width: 500px) {
+	#yith-topbar-countdown {
+		height: 60px;
+	}
+}

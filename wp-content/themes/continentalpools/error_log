@@ -1,0 +1,7 @@
+[07-Mar-2018 10:08:35 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/continentalpools/public_html/wp-content/themes/continentalpools/archive.php on line 1
+[08-Mar-2018 08:02:34 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/continentalpools/public_html/wp-content/themes/continentalpools/404.php on line 1
+[15-Mar-2018 11:51:27 UTC] PHP Fatal error:  Call to undefined function language_attributes() in /home/continentalpools/public_html/wp-content/themes/continentalpools/header.php on line 2
+[16-Mar-2018 08:42:25 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/continentalpools/public_html/wp-content/themes/continentalpools/404.php on line 1
+[28-Mar-2018 02:53:40 UTC] PHP Fatal error:  Call to undefined function language_attributes() in /home/continentalpools/public_html/wp-content/themes/continentalpools/header.php on line 2
+[29-Mar-2018 02:35:02 UTC] PHP Fatal error:  Call to undefined function language_attributes() in /home/continentalpools/public_html/wp-content/themes/continentalpools/header.php on line 2
+[29-Mar-2018 06:43:28 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/continentalpools/public_html/wp-content/themes/continentalpools/index.php on line 16

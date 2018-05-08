@@ -1,0 +1,54 @@
+<wpml-config>
+	<custom-fields>
+		<custom-field action="ignore">minti_layout</custom-field>
+		<custom-field action="ignore">minti_header</custom-field>
+		<custom-field action="ignore">minti_titlebar</custom-field>
+		<custom-field action="ignore">minti_headercolor</custom-field>
+		<custom-field action="ignore">minti_headerimage</custom-field>
+		<custom-field action="ignore">minti_footerwidgets</custom-field>
+		<custom-field action="ignore">minti_footercopyright</custom-field>
+		<custom-field action="ignore">minti_sidebar</custom-field>
+		<custom-field action="ignore">minti_heading</custom-field>
+		<custom-field action="ignore">minti_blogstyle</custom-field>
+		<custom-field action="ignore">minti_blogcategories</custom-field>
+		<custom-field action="ignore">minti_hideimage</custom-field>
+		<custom-field action="ignore">minti_blog-audio</custom-field>
+		<custom-field action="ignore">minti_blog-gallery</custom-field>
+		<custom-field action="ignore">minti_blog-link</custom-field>
+		<custom-field action="copy">minti_blog-quote</custom-field>
+		<custom-field action="copy">minti_blog-quotesource</custom-field>
+		<custom-field action="ignore">minti_blog-video</custom-field>
+		<custom-field action="ignore">minti_bloglayout</custom-field>
+		<custom-field action="ignore">minti_breadcrumbs</custom-field>
+		<custom-field action="ignore">minti_portfolio-detaillayout</custom-field>
+		<custom-field action="translate">minti_subtitle</custom-field>
+		<custom-field action="copy">minti_portfolio-client</custom-field>
+		<custom-field action="ignore">minti_portfolio-link</custom-field>
+		<custom-field action="ignore">minti_portfolio-details</custom-field>
+		<custom-field action="ignore">minti_portfolio-relatedposts</custom-field>
+		<custom-field action="ignore">minti_portfolio-size</custom-field>
+		<custom-field action="ignore">minti_portfolio-lightbox</custom-field>
+		<custom-field action="ignore">minti_screenshot</custom-field>
+		<custom-field action="ignore">minti_source</custom-field>
+		<custom-field action="ignore">minti_embed</custom-field>
+		<custom-field action="ignore">minti_bgurl</custom-field>
+		<custom-field action="ignore">minti_bgstyle</custom-field>
+		<custom-field action="ignore">minti_bgcolor</custom-field>
+	</custom-fields>
+	<custom-types>
+		<custom-type translate="1">portfolio</custom-type>
+	</custom-types>
+	<taxonomies>
+		<taxonomy translate="1">portfolio_filter</taxonomy>
+	</taxonomies>
+	<admin-texts>
+		<key name="minti_data">
+			<key name="textarea_topbar" />
+			<key name="textarea_copyright" />
+			<key name="text_titlebar_woocommerce" />
+			<key name="textarea_copyright" />
+			<key name="textarea_copyright" />
+			<key name="textarea_slogan"/>
+		</key>
+	</admin-texts>
+</wpml-config>

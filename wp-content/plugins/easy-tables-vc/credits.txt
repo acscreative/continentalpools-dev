@@ -1,0 +1,6 @@
+Thanks to all the great authors who shared their brilliant work and let us to use it.
+
+CREDITS
+    - jQuery plugin Handsontable by Marcin Warpechowski (http://handsontable.com)
+    - Some icons by Yusuke Kamiyamane (http://p.yusukekamiyamane.com)
+    - Some icons by PICOL (http://www.picol.org)

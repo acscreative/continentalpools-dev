@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1246 234" style="enable-background:new 0 0 1246 234;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#003D7A;}
+	.st1{fill:#005299;}
+</style>
+<g id="back">
+</g>
+<g id="water">
+	<g>
+		<defs>
+			<rect id="SVGID_1_" x="37" y="-637" width="900" height="900"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+	</g>
+	<g>
+		<path class="st0" d="M1249,37.5c-38.4-11.5-84.3-24.6-130.6-25.1c-82.7-0.9-166.6,30.5-216.6,30.5c-50.1,0-100.1-25.1-150.2-25.1
+			c-50.1,0-84.9,27.8-126.3,24.2S536,13.3,472.9,15.1C409.8,16.9,357.5,52.8,296.6,51S188.3,14.4,118.6,12.6
+			C75,11.5,25.1,18.4-4,26.1l2.3,144H1249V37.5z"/>
+		<path class="st1" d="M1249,234V79.4c-25.7,4.4-96.8,16-150.5,17.1C1031.8,97.8,969.3,66,912.2,62c-57.1-4-112.9,39.2-170.1,46.3
+			c-57.2,7.1-134.8-41.6-188-45.5c-53.3-3.9-107.1,36.6-173.9,40.7c-66.7,4.1-146.3-30.8-220.6-35.1C88.9,64.3,55.7,96.1-1.7,105.2
+			V234H1249z"/>
+	</g>
+</g>
+<g id="TEXT">
+</g>
+</svg>

@@ -1,0 +1,190 @@
+/* GLOBAL
+------------------------------------------------------- */
+
+#TB_overlay{
+	z-index: 9999990 !important;
+}
+
+#TB_ajaxContent{
+	overflow-x: hidden !important;
+}
+
+#TB_window{
+	z-index: 9999999 !important;
+}
+
+#TB_title{
+	background: #222222 !important;
+	color: #ffffff;
+	padding: 10px;
+	font-size: 15px;
+}
+
+#TB_closeAjaxWindow{
+	margin-top: 10px;
+}
+
+.mce-i-minti_button{
+	background-image:url(../images/logo.png)!important; 
+	background-repeat:no-repeat; 
+	background-color:transparent; 
+	background-position:center center;
+}
+
+#minti-popup {
+	width: 600px;
+	max-height: 600px !important;
+	z-index: 9999999;
+}
+#minti-popup * {
+	-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+/* form side */
+#minti-sc-form-wrap {
+	width: 600px;
+}
+#minti-sc-form-wrap #minti-sc-form-head {
+	width: 600px;
+	padding: 20px;
+	font-weight: bold;
+	line-height: 1;
+	color: #444444;
+	font-size: 18px;
+	background-color: #f3f3f3;
+	border-bottom: 1px solid #dddddd;
+}
+#minti-popup.no_preview #minti-sc-form-wrap #minti-sc-form-head {
+	width: 600px;
+}
+#minti-sc-form-wrap #minti-sc-form {
+	width: 600px;
+	background: #ffffff;
+	border-bottom: 1px solid #dddddd;
+}
+
+/* FORM
+------------------------------------------------------- */
+
+#minti-sc-form-table {
+	width: 600px;
+	padding: 0 20px;
+}
+#minti-sc-form-table tbody tr.form-row {
+	display: block;
+	padding: 20px 0 20px 0;
+	border-bottom: solid 1px #efefef;
+}
+#minti-sc-form-table tbody:last-child tr.form-row {
+	border-bottom: none;
+}
+#minti-sc-form-table tbody tr.form-row .label {
+	width: 130px;
+	text-align: left;
+	vertical-align: top;
+	padding-top: 5px;
+	font-weight: bold;
+}
+#minti-sc-form-table tbody tr.form-row .field {
+	width: 430px;
+}
+#minti-sc-form-table tbody tr.form-row .minti-insert {
+	color: #fff;
+}
+
+/* child rows, sortable */
+#minti-sc-form-table .has-child #form-child-add {
+	width: 550px;
+	padding: 0;
+	height: 40px;
+	line-height: 40px;
+	margin-bottom: 25px;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: center;
+}
+#minti-sc-form-table .has-child .child-clone-rows {
+	display: block;
+}
+#minti-sc-form-table .has-child .child-clone-rows .child-clone-row {
+	padding: 0 !important;
+	margin: 0 0 30px 0;
+	background: #ffffff;
+	border: solid 1px #dedede;
+	cursor: move;
+	background: #f5f5f5;
+}
+#minti-sc-form-table .has-child .sortable-placeholder {
+	border: dashed 2px #cccccc;
+	background: #ffffff;
+	height: 40px;
+}
+#minti-sc-form-table .has-child .child-clone-rows .child-clone-row .child-clone-row-form {
+	display: block;
+	padding: 0 20px;
+	margin: 0;
+}
+#minti-sc-form-table .has-child .child-clone-rows .child-clone-row .child-clone-row-form .child-clone-row-form-row {
+	display: block;
+	padding: 20px 0;
+	margin: 0;
+	border-bottom: dashed 1px #cccccc;
+}
+#minti-sc-form-table .has-child .child-clone-rows .child-clone-row .child-clone-row-form .child-clone-row-form-row .child-clone-row-label label {
+	display: block;
+	font-weight: bold;
+	margin: 0;
+	padding: 0 0 10px 0;
+	line-height: 1;
+}
+#minti-sc-form-table .has-child .child-clone-rows .child-clone-row .child-clone-row-remove {
+	display: inline-block;
+	margin: 20px;
+	color: #ac0000;
+	padding: 1px;
+	text-decoration: none;
+}
+#minti-sc-form-table .has-child .child-clone-rows .child-clone-row .child-clone-row-remove:hover {
+	color: #FF0000;
+}
+
+/* form elements */
+
+/* - all */
+#minti-sc-form-table tbody tr.form-row .minti-form-text,
+#minti-sc-form-table tbody tr.form-row .minti-form-textarea,
+#minti-sc-form-table tbody tr.form-row .minti-form-select {
+	width: 100%;
+}
+#minti-sc-form-table tbody tr.form-row.has-child .minti-form-text,
+#minti-sc-form-table tbody tr.form-row.has-child .minti-form-textarea,
+#minti-sc-form-table tbody tr.form-row.has-child .minti-form-select {
+	width: 100%;
+}
+
+/* - textarea */
+#minti-sc-form-table tbody tr.form-row .minti-form-textarea {
+	height: 100%;
+}
+#minti-sc-form-table tbody tr.form-row.has-child .minti-form-textarea {
+	height: 100px;
+}
+
+/* - select */
+#minti-sc-form-table tbody tr.form-row .minti-form-select {
+	display: block;
+}
+#minti-sc-form-table tbody tr.form-row.has-child .minti-form-select {
+	width: auto;
+}
+
+/* - desc */
+#minti-sc-form-table tbody tr.form-row .field .minti-form-desc,
+#minti-sc-form-table tbody tr.form-row .child-clone-row-desc {
+	display: block;
+	color: #999999;
+	padding-top: 10px;
+}
+
+/* Hide outline on focus */
+#content_minti_button { outline: none; }

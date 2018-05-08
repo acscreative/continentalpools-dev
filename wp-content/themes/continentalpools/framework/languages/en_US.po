@@ -1,0 +1,522 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Language: en_US\n"
+"X-Generator: Poedit 1.8.5\n"
+
+#. Text in function
+#: Unicon-master/comments.php:18 Unicon-master/framework/inc/meta.php:11
+msgid "% Comments"
+msgstr ""
+
+#. Text in function
+#: Unicon-master/functions.php:153
+msgid "%1$s at %2$s"
+msgstr ""
+
+#. Text in function
+#: Unicon-master/functions.php:153
+msgid "(Edit)"
+msgstr ""
+
+#. Text in function
+#: Unicon-master/comments.php:18 Unicon-master/framework/inc/meta.php:11
+msgid "1 Comment"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/404.php:11
+msgid "404"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/archive.php:15
+msgid "About"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/single.php:37
+msgid "About The Author"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/framework/inc/shortcodes.php:1174
+msgid "All"
+msgstr ""
+
+#. Text in function
+#: Unicon-master/framework/inc/titlebar.php:54
+#: Unicon-master/framework/inc/titlebar.php:125
+msgid "Archive for"
+msgstr ""
+
+#. Text in function
+#: Unicon-master/framework/inc/breadcrumbs.php:1
+msgid "Articles by"
+msgstr ""
+
+#. Text in function
+#: Unicon-master/framework/inc/titlebar.php:54
+#: Unicon-master/framework/inc/titlebar.php:125
+msgid "Author Archive for"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/framework/inc/header-topbar.php:68
+msgid "Behance"
+msgstr ""
+
+#. Text in function
+#: Unicon-master/framework/inc/titlebar.php:54
+#: Unicon-master/framework/inc/titlebar.php:125
+msgid "Blog Archives"
+msgstr ""
+
+#. Text in function
+#: Unicon-master/search.php:31
+msgid "Blog Post"
+msgstr ""
+
+#. Text in function
+#: Unicon-master/framework/inc/breadcrumbs.php:1
+msgid "Category"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/framework/inc/portfolio/sidebyside.php:46
+#: Unicon-master/framework/inc/portfolio/wide.php:43
+#: Unicon-master/framework/inc/portfolio/wide-noslider.php:41
+#: Unicon-master/framework/inc/portfolio/sidebyside-noslider.php:44
+msgid "Client"
+msgstr ""
+
+#. Text in function
+#: Unicon-master/comments.php:18
+msgid "Comments"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/comments.php:41
+msgid "Comments are closed."
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/footer.php:23
+msgid "Copyright"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/framework/inc/portfolio/sidebyside.php:48
+#: Unicon-master/framework/inc/portfolio/wide.php:45
+#: Unicon-master/framework/inc/portfolio/wide-noslider.php:43
+#: Unicon-master/framework/inc/portfolio/sidebyside-noslider.php:46
+msgid "Date"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/framework/inc/header-topbar.php:77
+msgid "Delicious"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/framework/inc/header-topbar.php:65
+msgid "DeviantArt"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/framework/inc/header-topbar.php:38
+msgid "Digg"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/framework/inc/header-topbar.php:26
+#: Unicon-master/framework/inc/socialmedia.php:6
+msgid "Dribbble"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/framework/inc/sharebox.php:36
+#: Unicon-master/framework/inc/widgets/contact.php:44
+msgid "E-Mail"
+msgstr ""
+
+#. Text in function
+#: Unicon-master/comments.php:52
+msgid "E-Mail (required)"
+msgstr ""
+
+#. Text in function
+#: Unicon-master/framework/inc/breadcrumbs.php:1
+msgid "Error 404"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/framework/inc/header-topbar.php:32
+#: Unicon-master/framework/inc/sharebox.php:6
+#: Unicon-master/framework/inc/socialmedia.php:9
+msgid "Facebook"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/framework/inc/widgets/contact.php:40
+msgid "Fax"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/framework/inc/header-topbar.php:29
+#: Unicon-master/framework/inc/socialmedia.php:15
+msgid "Flickr"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/framework/inc/header-topbar.php:23
+msgid "Forrst"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/framework/inc/socialmedia.php:12
+msgid "Foursquare"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/framework/inc/socialmedia.php:18
+msgid "Github"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/framework/inc/header-topbar.php:41
+#: Unicon-master/framework/inc/sharebox.php:26
+#: Unicon-master/framework/inc/socialmedia.php:21
+msgid "Google+"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/search.php:9
+msgid "If you are not happy with the results below please do another search"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/framework/inc/header-topbar.php:44
+#: Unicon-master/framework/inc/socialmedia.php:24
+msgid "Instagram"
+msgstr ""
+
+#. Text in function
+#: Unicon-master/comments.php:52
+msgid "Leave a reply"
+msgstr ""
+
+#. Text in function
+#: Unicon-master/framework/inc/post-format/medium/entry-link.php:6
+#: Unicon-master/framework/inc/post-format/entry-link.php:9
+#: Unicon-master/framework/inc/post-format/masonry/entry-link.php:4
+msgid "Link to %s"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/framework/inc/header-topbar.php:47
+#: Unicon-master/framework/inc/sharebox.php:31
+#: Unicon-master/framework/inc/socialmedia.php:27
+msgid "LinkedIn"
+msgstr ""
+
+#. Text in function
+#: Unicon-master/comments.php:52
+msgid "Name (required)"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/search.php:7
+msgid "New Search"
+msgstr ""
+
+#. Text in function
+#: Unicon-master/framework/inc/meta.php:11
+msgid "No Comments"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/search.php:55
+msgid "No results found"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/404.php:12
+msgid "Not Found."
+msgstr ""
+
+#. Text in function
+#: Unicon-master/framework/inc/breadcrumbs.php:1 Unicon-master/search.php:33
+msgid "Page"
+msgstr ""
+
+#. Text in function
+#: Unicon-master/functions.php:167
+msgid "Page %s"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/framework/inc/header-topbar.php:74
+msgid "PayPal"
+msgstr ""
+
+#. Text in function
+#: Unicon-master/framework/inc/post-format/masonry/entry-audio.php:12
+#: Unicon-master/framework/inc/post-format/masonry/entry-quote.php:5
+#: Unicon-master/framework/inc/post-format/medium/entry-quote.php:5
+#: Unicon-master/framework/inc/post-format/medium/entry-audio.php:12
+#: Unicon-master/framework/inc/post-format/entry-video.php:24
+#: Unicon-master/framework/inc/post-format/entry-video.php:26
+#: Unicon-master/framework/inc/post-format/entry-gallery.php:32
+#: Unicon-master/framework/inc/post-format/entry-gallery.php:34
+#: Unicon-master/framework/inc/post-format/masonry/entry-gallery.php:20
+#: Unicon-master/framework/inc/post-format/medium/entry-gallery.php:20
+#: Unicon-master/search.php:26
+#: Unicon-master/framework/inc/post-format/masonry/entry.php:5
+#: Unicon-master/framework/inc/post-format/masonry/entry.php:14
+#: Unicon-master/framework/inc/post-format/masonry/entry-video.php:20
+#: Unicon-master/framework/inc/post-format/medium/entry-video.php:20
+#: Unicon-master/framework/inc/post-format/medium/entry.php:5
+#: Unicon-master/framework/inc/post-format/medium/entry.php:14
+#: Unicon-master/framework/inc/post-format/entry.php:17
+#: Unicon-master/framework/inc/post-format/entry.php:29
+#: Unicon-master/framework/inc/post-format/entry.php:31
+#: Unicon-master/framework/inc/post-format/entry-quote.php:10
+#: Unicon-master/framework/inc/post-format/entry-quote.php:17
+#: Unicon-master/framework/inc/post-format/entry-audio.php:16
+#: Unicon-master/framework/inc/post-format/entry-audio.php:18
+msgid "Permalink to %s"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/framework/inc/widgets/contact.php:36
+msgid "Phone"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/framework/inc/header-topbar.php:62
+msgid "Picasa"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/framework/inc/header-topbar.php:71
+#: Unicon-master/framework/inc/sharebox.php:21
+#: Unicon-master/framework/inc/socialmedia.php:30
+msgid "Pinterest"
+msgstr ""
+
+#. Text in function
+#: Unicon-master/search.php:35
+msgid "Portfolio Item"
+msgstr ""
+
+#. Text in function
+#: Unicon-master/framework/inc/titlebar.php:54
+#: Unicon-master/framework/inc/titlebar.php:125
+msgid "Posts Tagged:"
+msgstr ""
+
+#. Text in function
+#: Unicon-master/search.php:37
+msgid "Product"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/framework/inc/header-topbar.php:83
+#: Unicon-master/framework/inc/socialmedia.php:36
+msgid "RSS"
+msgstr ""
+
+#. Text in function
+#: Unicon-master/framework/inc/shortcodes.php:1
+msgid "Read More &rarr;"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/single.php:52
+msgid "Related Posts"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/single-portfolio.php:41
+msgid "Related Projects"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/framework/inc/socialmedia.php:33
+msgid "Renren"
+msgstr ""
+
+#. Text in function
+#: Unicon-master/framework/inc/breadcrumbs.php:1
+msgid "Search"
+msgstr ""
+
+#. Text in function
+#: Unicon-master/framework/inc/titlebar.php:54
+#: Unicon-master/framework/inc/titlebar.php:125
+msgid "Search results for:"
+msgstr ""
+
+#. Text in function
+#: Unicon-master/framework/inc/headers/header-v3.php:90
+#: Unicon-master/framework/inc/headers/header-v1.php:149
+#: Unicon-master/framework/inc/headers/header-v4.php:79
+#: Unicon-master/framework/inc/headers/header-v2.php:182
+msgid "Search.."
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/framework/inc/sharebox.php:6
+#: Unicon-master/framework/inc/sharebox.php:11
+#: Unicon-master/framework/inc/sharebox.php:16
+#: Unicon-master/framework/inc/sharebox.php:21
+#: Unicon-master/framework/inc/sharebox.php:26
+#: Unicon-master/framework/inc/sharebox.php:31
+#: Unicon-master/framework/inc/sharebox.php:36
+msgid "Share via"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/framework/inc/header-topbar.php:35
+#: Unicon-master/framework/inc/socialmedia.php:39
+msgid "Skype"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/framework/inc/socialmedia.php:42
+msgid "Stack Overflow"
+msgstr ""
+
+#. Text in function
+#: Unicon-master/comments.php:52
+msgid "Submit Comment"
+msgstr ""
+
+#. Text in function
+#: Unicon-master/framework/inc/breadcrumbs.php:1
+msgid "Tag"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/framework/inc/portfolio/sidebyside.php:49
+#: Unicon-master/framework/inc/portfolio/wide.php:46
+#: Unicon-master/framework/inc/portfolio/wide-noslider.php:44
+#: Unicon-master/framework/inc/portfolio/sidebyside-noslider.php:47
+msgid "Tags"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/comments.php:9
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#. Text in function
+#: Unicon-master/framework/inc/headers/header-v1.php:103
+#: Unicon-master/framework/inc/headers/header-v2.php:136
+msgid "To Search start typing..."
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/searchform.php:2
+msgid "To search type and hit enter"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/framework/inc/header-topbar.php:56
+#: Unicon-master/framework/inc/sharebox.php:16
+#: Unicon-master/framework/inc/socialmedia.php:48
+msgid "Tumblr"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/framework/inc/header-topbar.php:20
+#: Unicon-master/framework/inc/sharebox.php:11
+#: Unicon-master/framework/inc/socialmedia.php:45
+msgid "Twitter"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/framework/inc/portfolio/sidebyside.php:51
+#: Unicon-master/framework/inc/portfolio/wide.php:48
+#: Unicon-master/framework/inc/portfolio/wide-noslider.php:46
+#: Unicon-master/framework/inc/portfolio/sidebyside-noslider.php:49
+msgid "URL"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/framework/inc/socialmedia.php:54
+msgid "VK"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/framework/inc/portfolio/sidebyside.php:51
+#: Unicon-master/framework/inc/portfolio/wide.php:48
+#: Unicon-master/framework/inc/portfolio/wide-noslider.php:46
+#: Unicon-master/framework/inc/portfolio/sidebyside-noslider.php:49
+msgid "View Project"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/framework/inc/meta.php:8
+msgid "View all posts by"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/framework/inc/header-topbar.php:50
+#: Unicon-master/framework/inc/socialmedia.php:51
+msgid "Vimeo"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/framework/inc/widgets/contact.php:48
+msgid "Web"
+msgstr ""
+
+#. Text in function
+#: Unicon-master/comments.php:52
+msgid "Website"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/framework/inc/socialmedia.php:57
+msgid "Weibo"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/framework/inc/header-topbar.php:80
+msgid "XING"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/framework/inc/socialmedia.php:60
+msgid "Xing"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/framework/inc/header-topbar.php:53
+msgid "Yahoo"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/framework/inc/header-topbar.php:59
+#: Unicon-master/framework/inc/socialmedia.php:63
+msgid "YouTube"
+msgstr ""
+
+#. Text in echo
+#: Unicon-master/functions.php:160
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#. Text in function
+#: Unicon-master/functions.php:167
+msgid "read more"
+msgstr ""

@@ -1,0 +1,463 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH Topbar Countdown\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-11-13 12:14+0100\n"
+"PO-Revision-Date: 2015-11-13 12:15+0100\n"
+"Last-Translator: Your Inspiration Themes <plugins@yithemes.com>\n"
+"Language-Team: Your Inspiration Themes <plugins@yithemes.com>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ yit
+#: class.yith-tcountdown-admin.php:91
+msgid "YITH Topbar Countdown"
+msgstr "YITH Topbar Countdown"
+
+# @ yit
+#: class.yith-tcountdown-admin.php:92
+msgid "Topbar Countdown"
+msgstr "Topbar Countdown"
+
+# @ yit
+#: class.yith-tcountdown-admin.php:159
+msgid "Settings"
+msgstr "Impostazioni"
+
+# @ yit
+#: class.yith-tcountdown-admin.php:160
+msgid "Docs"
+msgstr "Documentazione"
+
+# @ yit
+#: templates/tcountdown.php:1
+msgid "Days"
+msgstr "Giorni"
+
+# @ yit
+#: templates/tcountdown.php:1 yit-common/yith-panel.php:402
+msgid "Hours"
+msgstr "Ore"
+
+# @ yit
+#: templates/tcountdown.php:1 yit-common/yith-panel.php:403
+#: yit-common/yith-panel.php:404
+msgid "Minutes"
+msgstr "Minuti"
+
+# @ yit
+#: templates/tcountdown.php:1
+msgid "Seconds"
+msgstr "Secondi"
+
+# @ yit
+#: yit-common/yith-panel.php:401
+msgid "Select a date"
+msgstr "Seleziona una data"
+
+# @ yit
+#: yit-common/yith-panel.php:412
+msgid "Upload"
+msgstr "Upload"
+
+# @ yit
+#: yit-common/yith-panel.php:439
+msgid "px"
+msgstr "px"
+
+# @ yit
+#: yit-common/yith-panel.php:440
+msgid "em"
+msgstr "em"
+
+# @ yit
+#: yit-common/yith-panel.php:441
+msgid "pt"
+msgstr "pt"
+
+# @ yit
+#: yit-common/yith-panel.php:442
+msgid "rem"
+msgstr "rem"
+
+# @ yit
+#: yit-common/yith-panel.php:452
+msgid "Select a font family"
+msgstr "Seleziona un font"
+
+# @ yit
+#: yit-common/yith-panel.php:460
+msgid "Regular"
+msgstr "Regular"
+
+# @ yit
+#: yit-common/yith-panel.php:461
+msgid "Bold"
+msgstr "Bold"
+
+# @ yit
+#: yit-common/yith-panel.php:462
+msgid "Extra bold"
+msgstr "Extra bold"
+
+# @ yit
+#: yit-common/yith-panel.php:463
+msgid "Italic"
+msgstr "Italic"
+
+# @ yit
+#: yit-common/yith-panel.php:464
+msgid "Italic bold"
+msgstr "Italic bold"
+
+# @ yit
+#: yit-common/yith-panel.php:476
+msgid "Click to preview"
+msgstr "Clicca per l'anteprima"
+
+# @ yit
+#: yith-tcountdown-options.php:21
+msgid "General"
+msgstr "Generali"
+
+# @ yit
+#: yith-tcountdown-options.php:24
+msgid "General Settings"
+msgstr "Impostazioni Generali"
+
+# @ yit
+#: yith-tcountdown-options.php:29
+msgid "Enable Topbar Countdown"
+msgstr "Abilita Topbar Countdown"
+
+# @ yit
+#: yith-tcountdown-options.php:30
+msgid "Enable the topbar countdown banner. (Default: Off)"
+msgstr "Abilita il banner di Topbar Countdown. (Default: Off)"
+
+# @ yit
+#: yith-tcountdown-options.php:36
+msgid "Logo"
+msgstr "Logo"
+
+# @ yit
+#: yith-tcountdown-options.php:37
+msgid ""
+"Upload or choose from your media library the logo image, if you don't need "
+"it anymore simply delete it."
+msgstr ""
+"Fai l'upload o scegli un immagine dalla tua libreria. Se non vuoi il logo "
+"cancella semplicemente il campo."
+
+# @ yit
+#: yith-tcountdown-options.php:43
+msgid "Slogan Text"
+msgstr "Slogan"
+
+# @ yit
+#: yith-tcountdown-options.php:44
+msgid "Enter the topbar slogan"
+msgstr "Inserisci lo slogan della Topbar"
+
+# @ yit
+#: yith-tcountdown-options.php:50
+msgid "Message"
+msgstr "Messaggio"
+
+# @ yit
+#: yith-tcountdown-options.php:51
+msgid "Enter the message text"
+msgstr "Inserisci il messaggio"
+
+# @ yit
+#: yith-tcountdown-options.php:53
+msgid "to offering expiration"
+msgstr "alla fine dell&#39;offerta"
+
+# @ yit
+#: yith-tcountdown-options.php:57
+msgid "Link Url"
+msgstr "Link Url"
+
+# @ yit
+#: yith-tcountdown-options.php:58
+msgid "Enter the link"
+msgstr "Inserisci il link"
+
+# @ yit
+#: yith-tcountdown-options.php:64
+msgid "Button Text"
+msgstr "Testo del bottone"
+
+# @ yit
+#: yith-tcountdown-options.php:65
+msgid "Enter the Button Text"
+msgstr "Inserisci il testo del bottone"
+
+# @ yit
+#: yith-tcountdown-options.php:67
+msgid "Book Now"
+msgstr "Prenota Ora"
+
+# @ yit
+#: yith-tcountdown-options.php:71
+msgid "Countdown to"
+msgstr "Conto alla rovescia fino al"
+
+# @ yit
+#: yith-tcountdown-options.php:72
+msgid "The date when the countdown will stop."
+msgstr "Data e Ora in cui il conto alla rovescia finirà."
+
+# @ yit
+#: yith-tcountdown-options.php:85
+msgid "Background"
+msgstr "Sfondo"
+
+# @ yit
+#: yith-tcountdown-options.php:88
+msgid "Background Settings"
+msgstr "Impostazioni di background"
+
+# @ yit
+#: yith-tcountdown-options.php:89
+msgid "Customize the background of topbar countdown"
+msgstr "Personalizza lo sfondo di Topbar Countdown"
+
+# @ yit
+#: yith-tcountdown-options.php:93
+msgid "Background image"
+msgstr "Immagine di sfondo"
+
+# @ yit
+#: yith-tcountdown-options.php:94
+msgid ""
+"Upload or choose from your media library the background image, if you don't "
+"need it anymore simply delete it."
+msgstr ""
+"Fai l'upload o scegli un immagine dalla tua libreria. Se non vuoi il logo "
+"cancella semplicemente il campo."
+
+# @ yit
+#: yith-tcountdown-options.php:100
+msgid "Background Color"
+msgstr "Colore di sfondo"
+
+# @ yit
+#: yith-tcountdown-options.php:101
+msgid "Choose a background color"
+msgstr "Scegli un colore di sfondo"
+
+# @ yit
+#: yith-tcountdown-options.php:107
+msgid "Background Repeat"
+msgstr "Background Repeat"
+
+# @ yit
+#: yith-tcountdown-options.php:108
+msgid "Select the repeat mode for the background image."
+msgstr "Seleziona la modalità di ripetizione per l'immagine di sfondo."
+
+# @ yit
+#: yith-tcountdown-options.php:112
+msgid "Repeat"
+msgstr "Repeat"
+
+# @ yit
+#: yith-tcountdown-options.php:113
+msgid "Repeat Horizontally"
+msgstr "Repeat Horizontally"
+
+# @ yit
+#: yith-tcountdown-options.php:114
+msgid "Repeat Vertically"
+msgstr "Repeat Vertically"
+
+# @ yit
+#: yith-tcountdown-options.php:115
+msgid "No Repeat"
+msgstr "No Repeat"
+
+# @ yit
+#: yith-tcountdown-options.php:120
+msgid "Background Position"
+msgstr "Background Position"
+
+# @ yit
+#: yith-tcountdown-options.php:121
+msgid "Select the position for the background image."
+msgstr "Seleziona la posizione per l'immagine di sfondo"
+
+# @ yit
+#: yith-tcountdown-options.php:125
+msgid "Center"
+msgstr "Centra"
+
+# @ yit
+#: yith-tcountdown-options.php:126
+msgid "Top left"
+msgstr "In alto a sinistra"
+
+# @ yit
+#: yith-tcountdown-options.php:127
+msgid "Top center"
+msgstr "In alto al centro"
+
+# @ yit
+#: yith-tcountdown-options.php:128
+msgid "Top right"
+msgstr "In alto a destra"
+
+# @ yit
+#: yith-tcountdown-options.php:129
+msgid "Bottom left"
+msgstr "In basso a sinistra"
+
+# @ yit
+#: yith-tcountdown-options.php:130
+msgid "Bottom center"
+msgstr "In basso al centro"
+
+# @ yit
+#: yith-tcountdown-options.php:131
+msgid "Bottom right"
+msgstr "In basso a destra"
+
+# @ yit
+#: yith-tcountdown-options.php:136
+msgid "Background Attachment"
+msgstr "Background Attachment"
+
+# @ yit
+#: yith-tcountdown-options.php:137
+msgid "Select the attachment for the background image."
+msgstr "Seleziona background attachment dell'immagine di sfondo"
+
+# @ yit
+#: yith-tcountdown-options.php:141
+msgid "Scroll"
+msgstr "Scroll"
+
+# @ yit
+#: yith-tcountdown-options.php:142
+msgid "Fixed"
+msgstr "Fixed"
+
+# @ yit
+#: yith-tcountdown-options.php:147
+msgid "Button Background Color"
+msgstr "Colore di sfondo per il bottone"
+
+# @ yit
+#: yith-tcountdown-options.php:148
+msgid "Choose a button background color"
+msgstr "Seleziona il colore di sfondo per il bottone"
+
+# @ yit
+#: yith-tcountdown-options.php:154
+msgid "Button Hover Background Color"
+msgstr "Colore di sfondo per il bottone in hover"
+
+# @ yit
+#: yith-tcountdown-options.php:155
+msgid "Choose a button hover background color"
+msgstr "Seleziona il colore di sfondo per il bottone in hover"
+
+# @ yit
+#: yith-tcountdown-options.php:167
+msgid "Typography"
+msgstr "Tipografia"
+
+# @ yit
+#: yith-tcountdown-options.php:170
+msgid "Typography Settings"
+msgstr "Impostazioni di tipografia"
+
+# @ yit
+#: yith-tcountdown-options.php:171
+msgid "Customize the typography of topbar countdown"
+msgstr "Personalizza la tipografia di Topbar Countdown"
+
+# @ yit
+#: yith-tcountdown-options.php:175
+msgid "Slogan font of message"
+msgstr "Font dello Slogan"
+
+# @ yit
+#: yith-tcountdown-options.php:176
+msgid "Choose the font type, size and color for the slogan text."
+msgstr "Scegli il font, dimensione e colore per il testo dello slogan."
+
+# @ yit
+#: yith-tcountdown-options.php:188
+msgid "Bold Slogan font of message"
+msgstr "Fonto dello slogan in grassetto"
+
+# @ yit
+#: yith-tcountdown-options.php:189
+msgid "Choose the font type, size and color for the bold text."
+msgstr ""
+"Scegli il font, dimensione e colore per il testo in grassetto dello slogan."
+
+# @ yit
+#: yith-tcountdown-options.php:201
+msgid "Numbers Font"
+msgstr "Font dei numeri"
+
+# @ yit
+#: yith-tcountdown-options.php:202
+msgid ""
+"Choose the font type, size and color for days, hours, minutes and seconds."
+msgstr "Scegli il font, dimensione e colore per i numeri del countdown."
+
+# @ yit
+#: yith-tcountdown-options.php:214
+msgid "Message Font"
+msgstr "Font del messaggio"
+
+# @ yit
+#: yith-tcountdown-options.php:215
+msgid ""
+"Choose the font type, size and color for the paragraphs inside the message "
+"text."
+msgstr "Scegli il font, dimensione e colore per il testo del bottone."
+
+# @ yit
+#: yith-tcountdown-options.php:227
+msgid "Button Font"
+msgstr "Font del bottone"
+
+# @ yit
+#: yith-tcountdown-options.php:228
+msgid ""
+"Choose the font type, size and color for the paragraphs inside the button."
+msgstr "Scegli il font, dimensione e colore per il testo dello slogan."
+
+# @ yit
+#~ msgid "http://yithemes.com/"
+#~ msgstr "http://yithemes.com/"
+
+# @ yit
+#~ msgid ""
+#~ "YITH Topbar Countdown allows you to add a banner countdown in your header."
+#~ msgstr ""
+#~ "YITH Topbar Countdown consente di aggiungere un banner nell'header  con "
+#~ "conto alla rovescia."
+
+# @ yit
+#~ msgid "Your Inspiration Themes"
+#~ msgstr "Your Inspiration Themes"
+
+# @ yit
+#~ msgid "1.0.0"
+#~ msgstr "1.0.0"
