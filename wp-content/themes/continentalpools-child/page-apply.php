@@ -27,9 +27,10 @@ global $clean;
 function gfl_output_value( $name )
 {
 	global $clean;
-	
+	$dob = $_POST['data']['DOB'];
 	if ( !$clean )
 		$clean = stripslashes_deep( $_POST['data'] );
+	$clean['DOB'] = $dob;
 	
 	if ( isset( $clean[ $name ] ) )
 		echo $clean[ $name ];
@@ -162,6 +163,7 @@ if ( isset( $_POST['szbl-nonce'] ) && wp_verify_nonce( $_POST['szbl-nonce'], 'su
 	// check for duplicates
 	if ( count( $errors ) <= 0 )
 	{
+		$clean['DOB'] = date("Y-m-d", strtotime(str_replace(' ', '', $clean['DOB'])));
 		$existing = $wpdb->get_results( $wpdb->prepare( "SELECT * FROM GuardApply WHERE grd_ApplyYear = %d AND LOWER( grd_Email ) = LOWER( %s )", $apply_year, $clean['Email'] ) );
 		if ( $existing ) 
 		{
@@ -203,12 +205,16 @@ if ( isset( $_POST['szbl-nonce'] ) && wp_verify_nonce( $_POST['szbl-nonce'], 'su
 			}
 			$data[ 'grd_' . $k ] = $v;
 		}
-
+		
 		$data['grd_SubmitDate'] = date_i18n( 'YmdHis' );
 
-// $wpdb->suppress_errors = false;
-// $wpdb->show_errors = true;
-
+		if (!empty($data['grd_SrcCRMCode'])) :
+			$source = $wpdb->get_row( $wpdb->prepare( "SELECT * FROM ApplicantSource WHERE src_CRMCode = %s", $data['grd_SrcCRMCode'] ) );
+			if (!empty($source->src_Description)) :
+				$data['grd_SourceDescription'] = $source->src_Description;
+			endif;
+		endif;
+		
 		$resp = $wpdb->insert( 'GuardApply', $data );
 		
 		$redirect = home_url( '/lifeguards/how-to-apply/applied/' );
@@ -241,6 +247,8 @@ if ( isset( $_POST['szbl-nonce'] ) && wp_verify_nonce( $_POST['szbl-nonce'], 'su
 		die;
 	}
 }
+
+$applicant_sources = $wpdb->get_results("SELECT * FROM ApplicantSource");
 ?>
 <div id="quick-apply-page">
 	<section class="aligncenter" id="page-banner">
@@ -347,6 +355,16 @@ if ( isset( $_POST['szbl-nonce'] ) && wp_verify_nonce( $_POST['szbl-nonce'], 'su
 						</div>
 						<div class="col">
 							<p>
+								<label for="DOB">
+									Date of Birth
+								</label>
+								<input type="text" placeholder="MM/DD/YYYY" required name="data[DOB]" id="DOB" value="<?php gfl_output_value( 'DOB' ); ?>">
+							</p>
+						</div>
+					</div>
+					<div class="row aligncenter">
+						<div class="col">
+							<p>
 								<label for="PositionName">
 									Position of Interest *
 								</label>
@@ -370,8 +388,7 @@ if ( isset( $_POST['szbl-nonce'] ) && wp_verify_nonce( $_POST['szbl-nonce'], 'su
 								</select>
 							</p>
 						</div>
-					</div>
-					<div class="row aligncenter">
+						<div class="col">
 							<strong>Are you certified?</strong>
 							<br>
 							<br>
@@ -382,6 +399,7 @@ if ( isset( $_POST['szbl-nonce'] ) && wp_verify_nonce( $_POST['szbl-nonce'], 'su
 								<input type="radio" id="certNo" name="data[Certind]" value="N" <?php checked( true, $_POST['data']['Certind'] == 'N' ); ?>>No
 							</label>
 							<br>&nbsp;
+						</div>
 					</div>
 					<div class="row aligncenter">
 						<strong>Where would you like to work?</strong>
@@ -402,6 +420,17 @@ if ( isset( $_POST['szbl-nonce'] ) && wp_verify_nonce( $_POST['szbl-nonce'], 'su
 								<option value="">Choose a Work Area</option>
 							</select>
 							<br><br>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col">
+							<label for="SrcCRMCode">How did you hear about us?</label>
+							<select required id="SrcCRMCode" name="data[SrcCRMCode]">
+								<option value="">Choose a Source</option>
+								<?php foreach ($applicant_sources as $row) : ?>
+									<option value="<?=$row->src_CRMCode;?>"><?=$row->src_Description;?></option>
+								<?php endforeach; ?>
+							</select>
 						</div>
 					</div>
 					<div class="row">
@@ -464,10 +493,63 @@ if ( isset( $_POST['szbl-nonce'] ) && wp_verify_nonce( $_POST['szbl-nonce'], 'su
 
 <script>
 jQuery(document).ready(function($){
+	var date = document.getElementById('DOB');
+
+	function checkValue(str, max) {
+	  if (str.charAt(0) !== '0' || str == '00') {
+	    var num = parseInt(str);
+	    if (isNaN(num) || num <= 0 || num > max) num = 1;
+	    str = num > parseInt(max.toString().charAt(0)) && num.toString().length == 1 ? '0' + num : num.toString();
+	  };
+	  return str;
+	};
+	
+	date.addEventListener('input', function(e) {
+	  this.type = 'text';
+	  var input = this.value;
+	  if (/\D\/$/.test(input)) input = input.substr(0, input.length - 3);
+	  var values = input.split('/').map(function(v) {
+	    return v.replace(/\D/g, '')
+	  });
+	  if (values[0]) values[0] = checkValue(values[0], 12);
+	  if (values[1]) values[1] = checkValue(values[1], 31);
+	  var output = values.map(function(v, i) {
+	    return v.length == 2 && i < 2 ? v + ' / ' : v;
+	  });
+	  this.value = output.join('').substr(0, 14);
+	});
+	
+	date.addEventListener('blur', function(e) {
+	  this.type = 'text';
+	  var input = this.value;
+	  var values = input.split('/').map(function(v, i) {
+	    return v.replace(/\D/g, '')
+	  });
+	  var output = '';
+	  
+	  if (values.length == 3) {
+	    var year = values[2].length !== 4 ? parseInt(values[2]) + 2000 : parseInt(values[2]);
+	    var month = parseInt(values[0]) - 1;
+	    var day = parseInt(values[1]);
+	    var d = new Date(year, month, day);
+	    if (!isNaN(d)) {
+	      document.getElementById('result').innerText = d.toString();
+	      var dates = [d.getMonth() + 1, d.getDate(), d.getFullYear()];
+	      output = dates.map(function(v) {
+	        v = v.toString();
+	        return v.length == 1 ? '0' + v : v;
+	      }).join(' / ');
+	    };
+	  };
+	  this.value = output;
+	});
+
 	$( 'div form .col' ).each(function(){
 		if ( $( 'input[type="text"],input[type="email"],select', this ).size() > 0 ) 
 		{
-			$( 'input', this ).attr( 'placeholder', $( 'label', this ).text().trim() );
+			if ($( 'input', this ).attr( 'placeholder') != 'MM/DD/YYYY') {
+				$( 'input', this ).attr( 'placeholder', $( 'label', this ).text().trim() );
+			}
 			//$( 'label', this ).hide();
 		}
 	});

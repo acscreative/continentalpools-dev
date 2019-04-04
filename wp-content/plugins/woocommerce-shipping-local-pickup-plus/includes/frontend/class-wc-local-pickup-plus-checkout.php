@@ -111,10 +111,10 @@ class WC_Local_Pickup_Plus_Checkout {
 	 * @param int|string $package_index the current package index
 	 */
 	public function output_pickup_package_form( $shipping_rate, $package_index ) {
-
 		$local_pickup_plus    = wc_local_pickup_plus_shipping_method();
 		$local_pickup_plus_id = $local_pickup_plus ?  $local_pickup_plus->get_method_id() : null;
-		$is_local_pickup      = $shipping_rate === $local_pickup_plus_id || ( $shipping_rate instanceof WC_Shipping_Rate && $shipping_rate->method_id === $local_pickup_plus_id );
+		
+		$is_local_pickup      = $shipping_rate->method_id === $local_pickup_plus_id || ( $shipping_rate instanceof WC_Shipping_Rate && $shipping_rate->method_id === $local_pickup_plus_id );
 
 		if ( ! array_key_exists( $package_index, self::$pickup_package_form_output ) ) {
 
@@ -123,6 +123,7 @@ class WC_Local_Pickup_Plus_Checkout {
 				self::$pickup_package_form_output[ $package_index ] = true;
 
 				$chosen_methods = WC()->session->get( 'chosen_shipping_methods', array() );
+				
 
 				if ( isset( $chosen_methods[ $package_index ] ) && $chosen_methods[ $package_index ] === $local_pickup_plus_id ) {
 
@@ -138,7 +139,6 @@ class WC_Local_Pickup_Plus_Checkout {
 						<?php
 
 					} elseif ( is_cart() ) {
-
 						$package_field->output_html();
 					}
 				}
